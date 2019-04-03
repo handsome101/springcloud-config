@@ -1,16 +1,17 @@
-﻿spring：
-    profiles:
-        active:
-        - dev
+﻿spring:
+  profiles:
+    active: 
+    - dev
         
 ---
-spring：
-    profiles: dev
-    application:
-        name: springcloud-config-handsome-dev
+
+spring:
+  profiles: dev
+  application:
+    name: springcloud-config-handsome-dev
         
 ---
-spring：
-    profiles: test
-    application:
-        name: springcloud-config-handsome-test
+spring:
+  profiles: test
+  application:
+    name: springcloud-config-handsome-test
